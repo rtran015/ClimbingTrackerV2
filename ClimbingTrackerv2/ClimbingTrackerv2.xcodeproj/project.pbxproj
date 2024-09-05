@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49B444F82C8A310000C58C50 /* ClimbingSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B444F72C8A310000C58C50 /* ClimbingSession.swift */; };
+		49B444FA2C8A312600C58C50 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B444F92C8A312600C58C50 /* HomeView.swift */; };
+		49B444FC2C8A315B00C58C50 /* ClimbDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B444FB2C8A315B00C58C50 /* ClimbDetailView.swift */; };
+		49B444FF2C8A320600C58C50 /* Climb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B444FE2C8A320600C58C50 /* Climb.swift */; };
 		49F65C592C88078100E2DE1B /* ClimbingTrackerv2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F65C582C88078100E2DE1B /* ClimbingTrackerv2App.swift */; };
-		49F65C5B2C88078100E2DE1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F65C5A2C88078100E2DE1B /* ContentView.swift */; };
 		49F65C5D2C88078300E2DE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F65C5C2C88078300E2DE1B /* Assets.xcassets */; };
 		49F65C612C88078300E2DE1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F65C602C88078300E2DE1B /* Preview Assets.xcassets */; };
 		49F65C6B2C88078300E2DE1B /* ClimbingTrackerv2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F65C6A2C88078300E2DE1B /* ClimbingTrackerv2Tests.swift */; };
 		49F65C752C88078300E2DE1B /* ClimbingTrackerv2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F65C742C88078300E2DE1B /* ClimbingTrackerv2UITests.swift */; };
 		49F65C772C88078300E2DE1B /* ClimbingTrackerv2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F65C762C88078300E2DE1B /* ClimbingTrackerv2UITestsLaunchTests.swift */; };
+		49F65C842C880EA500E2DE1B /* StatisticsSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F65C832C880EA500E2DE1B /* StatisticsSummaryView.swift */; };
+		49F65C862C880F5700E2DE1B /* SessionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F65C852C880F5700E2DE1B /* SessionDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49B444F72C8A310000C58C50 /* ClimbingSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingSession.swift; sourceTree = "<group>"; };
+		49B444F92C8A312600C58C50 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		49B444FB2C8A315B00C58C50 /* ClimbDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbDetailView.swift; sourceTree = "<group>"; };
+		49B444FE2C8A320600C58C50 /* Climb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Climb.swift; sourceTree = "<group>"; };
 		49F65C552C88078100E2DE1B /* ClimbingTrackerv2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimbingTrackerv2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F65C582C88078100E2DE1B /* ClimbingTrackerv2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingTrackerv2App.swift; sourceTree = "<group>"; };
-		49F65C5A2C88078100E2DE1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49F65C5C2C88078300E2DE1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49F65C5E2C88078300E2DE1B /* ClimbingTrackerv2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClimbingTrackerv2.entitlements; sourceTree = "<group>"; };
 		49F65C602C88078300E2DE1B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +53,8 @@
 		49F65C702C88078300E2DE1B /* ClimbingTrackerv2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimbingTrackerv2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F65C742C88078300E2DE1B /* ClimbingTrackerv2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingTrackerv2UITests.swift; sourceTree = "<group>"; };
 		49F65C762C88078300E2DE1B /* ClimbingTrackerv2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingTrackerv2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		49F65C832C880EA500E2DE1B /* StatisticsSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsSummaryView.swift; sourceTree = "<group>"; };
+		49F65C852C880F5700E2DE1B /* SessionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +82,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49B444F62C8A30D200C58C50 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				49B444F72C8A310000C58C50 /* ClimbingSession.swift */,
+				49B444FE2C8A320600C58C50 /* Climb.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		49B444FD2C8A317300C58C50 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49F65C832C880EA500E2DE1B /* StatisticsSummaryView.swift */,
+				49B444F92C8A312600C58C50 /* HomeView.swift */,
+				49F65C852C880F5700E2DE1B /* SessionDetailView.swift */,
+				49B444FB2C8A315B00C58C50 /* ClimbDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		49F65C4C2C88078100E2DE1B = {
 			isa = PBXGroup;
 			children = (
@@ -96,7 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				49F65C582C88078100E2DE1B /* ClimbingTrackerv2App.swift */,
-				49F65C5A2C88078100E2DE1B /* ContentView.swift */,
+				49B444F62C8A30D200C58C50 /* Models */,
+				49B444FD2C8A317300C58C50 /* Views */,
 				49F65C5C2C88078300E2DE1B /* Assets.xcassets */,
 				49F65C5E2C88078300E2DE1B /* ClimbingTrackerv2.entitlements */,
 				49F65C5F2C88078300E2DE1B /* Preview Content */,
@@ -259,8 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49F65C5B2C88078100E2DE1B /* ContentView.swift in Sources */,
+				49B444F82C8A310000C58C50 /* ClimbingSession.swift in Sources */,
+				49F65C862C880F5700E2DE1B /* SessionDetailView.swift in Sources */,
+				49B444FA2C8A312600C58C50 /* HomeView.swift in Sources */,
 				49F65C592C88078100E2DE1B /* ClimbingTrackerv2App.swift in Sources */,
+				49B444FF2C8A320600C58C50 /* Climb.swift in Sources */,
+				49F65C842C880EA500E2DE1B /* StatisticsSummaryView.swift in Sources */,
+				49B444FC2C8A315B00C58C50 /* ClimbDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

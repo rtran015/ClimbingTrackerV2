@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct ClimbingTrackerv2App: App {
+struct ClimbingTrackerV2App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                HomeView()
+            }
         }
     }
 }
